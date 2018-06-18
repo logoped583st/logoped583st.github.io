@@ -3,7 +3,7 @@ import './App.css';
 import store from './reducers/Store';
 import { Provider } from "react-redux";
 import { Fragment } from 'react';
-import { HashRouter as Router, Route, Link } from "react-router-dom";
+import { Router as Router, Route, Link } from "react-router-dom";
 
 import IndexComponent from './components/IndexComponent';
 import RepositoriesComponent from './components/RepositoriesComponent';
