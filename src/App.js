@@ -3,7 +3,7 @@ import './App.css';
 import store from './reducers/Store';
 import { Provider } from "react-redux";
 import { Fragment } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 
 import IndexComponent from './components/IndexComponent';
 import RepositoriesComponent from './components/RepositoriesComponent';
@@ -26,7 +26,7 @@ class App extends React.Component {
                                     <Link to="/repos">Repos</Link>
                                 </li>
                             </ul>
-                            <Route exact path="/" component={IndexComponent} />
+                            <Route exact path="/web-technologies-web-page/" component={IndexComponent} />
                             <Route path="/followers" component={FollowersComponent} />
                             <Route path="/repos" component={RepositoriesComponent} />
                         </div>
