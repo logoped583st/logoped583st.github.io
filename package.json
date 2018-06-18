@@ -1,7 +1,7 @@
 {
   "name": "lab4",
-  "homepage": "http://logoped583st.github.io/web-technologies-web-page",
   "version": "0.1.0",
+  "homepage": "http://logoped583st.github.io/web-technologies-web-page",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
