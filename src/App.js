@@ -27,7 +27,7 @@ class App extends React.PureComponent {
                                 </li>
                             </ul>
                             <IndexComponent/>
-                            <Route exact path="/#" component={} />
+                            {/* <Route exact path="/#" component={} /> */}
                             <Route path="/followers" component={FollowersComponent} />
                             <Route path="/repos" component={RepositoriesComponent} />
                         </div>
