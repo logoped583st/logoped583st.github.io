@@ -26,7 +26,8 @@ class App extends React.PureComponent {
                                     <Link to="/repos">Repos</Link>
                                 </li>
                             </ul>
-                            <Route exact path="/#" component={IndexComponent} />
+                            <IndexComponent/>
+                            <Route exact path="/#" component={} />
                             <Route path="/followers" component={FollowersComponent} />
                             <Route path="/repos" component={RepositoriesComponent} />
                         </div>
